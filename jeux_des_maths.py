@@ -52,7 +52,7 @@ def poser_une_question():
     else:
         print("peux mieux faire")
         
-    print(f"Votre moyenne est de {int(DEPART_QUESTION/2)}")
+    print(f"Votre moyenne est de {int((BONNE_REPONSE / (NOMBRE_QUESTION - 1)) * 20)}/20")
 
     
 poser_une_question()
